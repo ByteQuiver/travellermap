@@ -35,3 +35,6 @@ Thumbs.db
 # Mac cruft
 .DS_Store
 
+# Visual Studio Code
+.vscode/
+
