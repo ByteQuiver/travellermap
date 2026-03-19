@@ -839,7 +839,7 @@ const Util = {
       // Touch
       // ----------------------------------------------------------------------
 
-      const DRAG_THRESHOLD = 8;
+      const DRAG_THRESHOLD = 8 * (window.devicePixelRatio || 1);
       let touch_start_coords;
       let pinch1, pinch2;
       let touch_coords, touch_wx, touch_wc, was_touch_dragged;
